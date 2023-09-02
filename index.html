@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First ClassWork</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Survey Form</h1>
+      <form action="">
+        <div class="form-wrapper">
+          <div class="div-control">
+            <label for="name" class="label-control">Name</label>
+            <input type="text" id="name" class="input-control" placeholder="Enter your name" required/>
+          </div>
+
+          <div class="div-control">
+            <label for="name" class="label-control">Department</label>
+            <input type="text" id="name" class="input-control input-color" placeholder="Enter your name" value="COMPUTER ENGINEERING" readonly/>
+          </div>
+
+          <div class="div-control">
+            <label for="email" class="label-control">Email</label>
+            <input type="email" id="email" class="input-control" placeholder="Enter your email" required/>
+          </div>
+
+          <div class="div-control">
+            <label for="age" class="label-control">Age</label>
+            <input type="number" id="age" class="input-control" placeholder="Enter your age" required/>
+          </div>
+
+          <div class="div-control">
+            <label for="about" class="label-control">Which option best describes you?</label>
+            <select name="" id="" class="input-control">
+              <option value="student" >Student</option>
+              <option value="banker">Banker</option>
+              <option value="lawyer">Lawyer</option>
+              <option value="business">Business</option>
+              <option value="programmer" selected>Programmer</option>
+              <option value="doctor">Doctor</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <div class="div-control">
+            <label for="" class="label-control">Would you recommend GeeksforGeeks to a friend?</label>
+
+            <div class="try">
+              <input type="radio" id="yes" name="give" />
+              <label for="yes" class="label-control2">Yes</label>
+            </div>
+
+            <div class="try">
+              <input type="radio" id="no" name="give" />
+              <label for="no" class="label-control2">No</label>
+            </div>
+
+            <div class="try">
+              <input type="radio" id="maybe" name="give" />
+              <label for="maybe" class="label-control2">Maybe</label>
+            </div>
+          </div>
+
+          <div class="div-control">
+            <label for="" class="label-control">Languages and Frameworks known (check all that apply)</label>
+
+            <div class="try">
+              <input type="checkbox" id="c" checked />
+              <label for="c" class="label-control2">C</label><br />
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="c++" />
+              <label for="c++" class="label-control2">C++</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="c#" />
+              <label for="c#" class="label-control2">C#</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="java" />
+              <label for="java" class="label-control2">Java</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="python" />
+              <label for="python" class="label-control2">Python</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="javascript"/>
+              <label for="javascript" class="label-control2">Javascript</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="react" />
+              <label for="react" class="label-control2">React</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="angular" />
+              <label for="angular" class="label-control2">Angular</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="django" />
+              <label for="django" class="label-control2">Django</label>
+            </div>
+
+            <div class="try">
+              <input type="checkbox" id="spring" />
+              <label for="spring" class="label-control2">Spring</label>
+            </div>
+          </div>
+
+          <div class="div-control">
+            <label for="" class="label-control">Any Comments or Suggestions</label>
+            <textarea name="" id="" cols="10" rows="5" class="input-control" placeholder="Your Message..."></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
